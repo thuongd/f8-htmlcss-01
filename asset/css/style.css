@@ -67,6 +67,7 @@ a{
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
     background: #E6F0FF;
     height: calc(100vh - 90px);
 }
@@ -109,15 +110,15 @@ a{
     border-radius: 8px;
 }
 
-.hero{
-    margin-top: 130px;
-}
+/* .hero{
+    margin-top: 118px;
+} */
 
-.hero .info{
+.hero-wrap .info{
     width: 51%;
 }
 
-.hero .sub-title{
+.hero-wrap .sub-title{
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -125,7 +126,7 @@ a{
     letter-spacing: 0.01em;
 }
 
-.hero .title{
+.hero-wrap .title{
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -133,12 +134,16 @@ a{
     line-height: 1.1875;
 }
 
-.hero .desc{
+.hero-wrap .desc{
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.77778;
+}
+
+.hero-wrap .hero-cta{
+    margin-top: 40px;
 }
 
 .hero-img{
